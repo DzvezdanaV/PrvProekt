@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        String NAPRAVIVGRESHKA;
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

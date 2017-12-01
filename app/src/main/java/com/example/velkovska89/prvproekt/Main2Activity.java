@@ -70,6 +70,8 @@ username.setText(user.getUserename());
             } else {
                 genderM.setChecked(true);
 
+
+
             }
         }
 
