@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        String NAPRAVIVGRESHKA;
+        String NAPRAVIVGRESHKAaaaaa;
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
