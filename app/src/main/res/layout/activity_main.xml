@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@color/svetlozelena"
+    tools:context="com.example.velkovska89.prvproekt.MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/pilence"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pilence"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"/>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:background="@color/portokalova"
+        android:layout_margin="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continue as Guest"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
